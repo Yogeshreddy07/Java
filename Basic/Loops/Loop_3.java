@@ -1,5 +1,5 @@
 //Fibo -> 0,1,1,2,3,5,8,13,21'''
-package Learn.Loops;
+package Basic.Loops;
 import java.util.*;
 public class Loop_3 {
     public static void main(String []args){

@@ -1,4 +1,4 @@
-package Learn.Function;
+package Basic.Function;
 import java.util.*;
 
 public class Prime {

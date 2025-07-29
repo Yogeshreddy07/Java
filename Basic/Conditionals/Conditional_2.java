@@ -1,4 +1,4 @@
-package Learn.Conditionals;
+package Basic.Conditionals;
 import java.util.*;
 public class Conditional_2 {
     public static void main(String[]args){

@@ -1,5 +1,5 @@
 //Simple for Loop prog to execute loop form 1 ->n number.
-package Learn.Loops;
+package Basic.Loops;
 import java.util.*;
 public class Loop_1 {
     public static void main(String[]args){

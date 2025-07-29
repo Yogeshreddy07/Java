@@ -1,4 +1,4 @@
-package Learn.Loops;
+package Basic.Loops;
 import java.util.*;
 public class Loop_4 {
     public static void main(String[]args){

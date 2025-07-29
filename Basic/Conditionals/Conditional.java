@@ -1,5 +1,5 @@
 //conditions if-else
-package Learn.Conditionals;
+package Basic.Conditionals;
 import java.util.*;
 public class Conditional {
     public static void main(String[]args){

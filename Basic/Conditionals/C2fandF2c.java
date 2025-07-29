@@ -1,4 +1,4 @@
-package Learn.Conditionals;
+package Basic.Conditionals;
 import java.util.Scanner;
 
 public class C2fandF2c {

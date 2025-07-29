@@ -1,3 +1,4 @@
+package Basic.Function;
 import java.util.*;
 public class Fun {
     /*

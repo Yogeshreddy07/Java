@@ -3,7 +3,7 @@ Amstronno -->
   if 153 is the number the 1^3+5^3+3^3 =153 ;
   so , 153==153 then its a Amstron No.
 */
-package Learn.Function;
+package Basic.Function;
 import java.util.*;
 public class Amstronno {
     static boolean armstrongno(int num){

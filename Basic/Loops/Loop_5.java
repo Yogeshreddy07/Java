@@ -1,5 +1,5 @@
 //reverese the number
-package Learn.Loops;
+package Basic.Loops;
 import java.util.*;
 public class Loop_5 {
     public static void main(String[]args){

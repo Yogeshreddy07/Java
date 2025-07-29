@@ -1,4 +1,4 @@
-package Learn.Switch;
+package Basic.Switch;
 //Calculator
 import java.util.*;
 public class Cal {

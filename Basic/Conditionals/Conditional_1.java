@@ -1,5 +1,5 @@
 //for finding max values
-package Learn.Conditionals;
+package Basic.Conditionals;
 import java.util.*;
 public class Conditional_1 {
     public static void maxi(int a,int b,int c){
