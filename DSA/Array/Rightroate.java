@@ -1,5 +1,4 @@
 package DSA.Array;
-import java.sql.SQLOutput;
 import java.util.*;
 public class Rightroate {
     public void roate(int arr[],int n){

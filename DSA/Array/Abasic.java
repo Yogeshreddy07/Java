@@ -1,5 +1,5 @@
 //Basic Array -> 1D array
-package Array;
+package DSA.Array;
 import java.util.*;
 public class Abasic {
     public static void main(String[]args){
