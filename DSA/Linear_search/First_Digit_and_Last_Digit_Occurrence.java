@@ -3,7 +3,16 @@ package DSA.Linear_search;
 import java.util.*;
 
 public class First_Digit_and_Last_Digit_Occurrence {
-    static int search(int []arr,int t){
+    public static int [] searchRange(int []num,int t){
+        int []ans={-1,-1};
+        int start=search(num, t, true);
+        int end=search(num, t, false);
+        ans[0]=start;
+        ans[1]=end;
+        return ans;
+    }
+    static int search(int []arr,int t,boolean findStartIndex){
+        int ans=-1;
         int start=0;
         int end=arr.length-1;
         while(start<=end) {
@@ -14,10 +23,16 @@ public class First_Digit_and_Last_Digit_Occurrence {
             else if(t < arr[mid]){
                 end=mid-1;
             }else{
-                return mid;
+                //potential ans is found
+                ans=mid;
+                if(findStartIndex==true){
+                    end=mid-1;
+                }else{
+                    start=mid+1;
+                }
             }
         }
-        return -1;
+        return ans;
     }
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
@@ -27,7 +42,9 @@ public class First_Digit_and_Last_Digit_Occurrence {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        int s=search(arr,t);
-        System.out.println(s);
+        int s[]=searchRange(arr, t);
+        for(int i=0;i<s.length;i++){
+            System.out.println(s[i]+" ");
+        }
     }
 }
