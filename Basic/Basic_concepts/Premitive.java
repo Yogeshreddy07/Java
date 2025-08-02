@@ -1,4 +1,4 @@
-package Learn.Basic;
+package Basic_concepts;
 import java.util.*;
 public class Premitive {
     public static void main(String[]args){

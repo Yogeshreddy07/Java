@@ -1,4 +1,4 @@
-package Learn.Basic;
+package Basic_concepts;
 import java.util.*;
 public class Base {
     //method for string

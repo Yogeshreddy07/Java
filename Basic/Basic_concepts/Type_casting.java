@@ -1,4 +1,4 @@
-package Learn.Basic;
+package Basic_concepts;
 
 public class Type_casting {
     public static void main(String[]args){
