@@ -1,14 +1,11 @@
 package DSA.Array;
 import java.util.*;
 
-public class A1 {
+public class Smax {
     public void main1() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
-
-        for (int i = 0; i < n; i++) {
-        }
 
         if (n < 2) {
             System.out.println("Array must have at least two elements");
@@ -36,7 +33,7 @@ public class A1 {
     }
 
     public static void main(String[] args) {
-        A1 a = new A1();
+        Smax a = new Smax();
         a.main1();
     }
 }
